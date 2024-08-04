@@ -6,6 +6,10 @@ class Player
   end
 
   def mark
-    return @player_mark
+    @player_mark
+  end
+
+  def name
+    @player_name
   end
 end
