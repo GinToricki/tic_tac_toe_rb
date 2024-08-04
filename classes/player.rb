@@ -4,4 +4,8 @@ class Player
     @player_name = name
     @player_mark = mark
   end
+
+  def mark
+    return @player_mark
+  end
 end
